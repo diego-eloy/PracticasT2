@@ -25,6 +25,7 @@ public class FormatoPersonas {
         System.out.println("Usuario1");
         System.out.println("Dime tu Nombre y Apellido:");
         nombre=teclado.next();
+        teclado.nextLine();
         System.out.println("Dime tu Edad:");
         edad=teclado.nextInt();
         System.out.println("Dime tu Altura:");
